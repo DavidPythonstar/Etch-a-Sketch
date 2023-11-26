@@ -1,0 +1,28 @@
+.general{
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 600px;
+  background-color: white;
+  box-shadow:0 0 5px blue;
+
+}
+
+.items {
+}
+
+body{
+  background-color:lightgoldenrodyellow;
+}
+.container:hover
+{
+  box-shadow: 0 0 10px chartreuse;
+}
+.selections
+{
+  margin-top: 160px;
+}
